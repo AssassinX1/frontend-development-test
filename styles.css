@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212; /* Dark background like Imgur */
+    color: #ddd;
+    text-align: center;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.upload-section {
+    background: #222;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+button {
+    background-color: #00a86b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #007a50;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.image-item {
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.image-item a {
+    display: block;
+    margin-top: 10px;
+    color: #00a86b;
+    text-decoration: none;
+}
+
+.image-item a:hover {
+    text-decoration: underline;
+}
