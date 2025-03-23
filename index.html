@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Sharing Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Image Sharing Platform</h1>
+    </header>
+    <main>
+        <section class="upload-section">
+            <form id="uploadForm">
+                <input type="file" id="imageUpload" accept="image/*" required>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+        <section class="gallery-section">
+            <h2>Image Gallery</h2>
+            <div class="image-container" id="gallery"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Image Sharing Site</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
